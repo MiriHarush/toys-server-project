@@ -1,0 +1,13 @@
+*{
+    font-family: 'Dosis', sans-serif;
+    
+}
+ h1, h3{
+    color: rgb(51, 153, 216) !important;
+} 
+.fw-bold{
+    color: rgb(51, 153, 216);
+} 
+strong{
+    color: rgb(51, 153, 216);
+}
