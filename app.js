@@ -9,7 +9,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-aoo.use(express.static(path.join(__dirname,"public")))
+app.use(express.static(path.join(__dirname,"public")))
 
 app.use("/users", userRoutes);
 app.use("/toys", toysRoutes);
